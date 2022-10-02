@@ -2,8 +2,9 @@
 
     class HelloWorld{  
         public static void main(String args[]){  
-          
-         System.out.println("Hello World");
-         System.out.println("Welcome to the world of coding"):
+          Scanner vanshika=new Scanner(System.in);
+        String name=vanshika.nextLine();
+        System.out.println("Hello World"+name+"!");
+        System.out.println("Welcome to the world of coding");
         }  
     }  
